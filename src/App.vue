@@ -73,6 +73,8 @@ onMounted(() => {
   const storedAccentColor = localStorage.getItem("accentColor");
   if (storedAccentColor) {
     accentColor.value = storedAccentColor;
+  } else {
+    ui("theme", accentColor.value);
   }
 });
 
