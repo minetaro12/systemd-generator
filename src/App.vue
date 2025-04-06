@@ -2,6 +2,7 @@
 import "beercss";
 import "material-dynamic-colors";
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 import { onMounted, ref, watch } from "vue";
 import type Template from "./types/Template";
 import { generate } from "./lib/generate";
@@ -170,6 +171,7 @@ watch(
       </fieldset>
     </article>
   </main>
+  <Footer />
 </template>
 
 <style scoped></style>
