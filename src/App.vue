@@ -105,9 +105,7 @@ watch(
         <span>Save</span>
       </button>
       <dialog id="result" class="small-round">
-        <code>
-          <pre>{{ result }}</pre>
-        </code>
+        <pre><code>{{ result }}</code></pre>
         <nav>
           <button data-ui="#result" class="small-round">
             <i>close</i>
